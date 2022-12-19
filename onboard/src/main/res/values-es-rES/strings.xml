@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_skip_button">Omitir</string>
+    <string name="onboard_next_button">próximo</string>
+    <string name="onboard_back_button">VOLVER</string>
+    <string name="onboard_done_button">Hecho</string>
+    <string name="loading_ads_text">Cargando anuncios...</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:layout_marginBottom="@dimen/_4sdp"
+    app:carbon_cornerRadius="@dimen/_8sdp"
+    android:background="@color/gray_43">
+
+    <carbon.widget.ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        app:cardCornerRadius="@dimen/_4sdp" />
+
+    <TextView
+        android:id="@+id/tv_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/iv_image"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="18dp"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:textColor="@color/black_1F"
+        android:textSize="@dimen/_14sdp"
+        tools:ignore="RtlSymmetry"
+        tools:text="Indonesian" />
+
+    <RadioButton
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:backgroundTint="#FFBC58"
+        android:buttonTint="#FFBC58"
+        android:clickable="false" />
+
+</carbon.widget.RelativeLayout>

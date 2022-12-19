@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_16sdp"
+    android:layout_marginEnd="@dimen/_16sdp"
+    android:background="@drawable/bg_search_corner_8"
+    android:backgroundTint="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_33sdp"
+        android:src="@drawable/ic_iv_error" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_error"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_33sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:text="@string/the_word_you_searched"
+        android:textAlignment="center"
+        android:textSize="@dimen/_12sdp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/ext_text_view"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:background="@color/color_E8E8E8" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_19sdp"
+        android:text="@string/ok"
+        android:textAlignment="center"
+        android:textColor="@color/color_1F89C9"
+        android:textSize="@dimen/_18sdp" />
+</RelativeLayout>

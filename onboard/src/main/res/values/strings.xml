@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="onboard_skip_button">Skip</string>
+    <string name="onboard_next_button" tools:ignore="MissingTranslation">Next</string>
+    <string name="onboard_back_button" tools:ignore="MissingTranslation">BACK</string>
+    <string name="onboard_done_button">Done</string>
+    <string name="onboard_image_content_description" tools:ignore="MissingTranslation">graphics</string>
+    <string name="loading_ads_text">Loading ads...</string>
+</resources>

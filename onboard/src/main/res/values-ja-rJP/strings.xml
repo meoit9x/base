@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_skip_button">スキップ</string>
+    <string name="onboard_next_button">次</string>
+    <string name="onboard_back_button">戻る</string>
+    <string name="onboard_done_button">終わり</string>
+    <string name="loading_ads_text">広告の読み込み...</string>
+</resources>

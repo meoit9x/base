@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_skip_button">Пропускать</string>
+    <string name="onboard_next_button">Следующий</string>
+    <string name="onboard_back_button">НАЗАД</string>
+    <string name="onboard_done_button">Сделанный</string>
+    <string name="loading_ads_text">Загрузка объявлений...</string>
+
+</resources>

@@ -1,0 +1,144 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'applovin-quality-service'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+applovin {
+    apiKey = "x5nodsO_qeATUUt7uw_s7e0oNDXl2tJFE3hnG4ks1J5l8anPmAGiONd7t--f28bXK6SfOUpcJfEmUJE5AhpkXC"
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.dictionary.levelchecker"
+        minSdk 26
+        targetSdk 32
+        versionCode 5
+        versionName "1.0.5"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            resValue "string", "app_label_name", "Dictionary Dev"
+            debuggable true
+            minifyEnabled false
+            buildConfigField 'int', 'ADS_THRESHOLD', '2'
+        }
+
+        release {
+            resValue "string", "app_label_name", "Dictionary"
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'int', 'ADS_THRESHOLD', '15'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation project(path: ':onboard')
+    implementation project(path: ':AdMob')
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // view model - live data - navigation
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0'
+
+    // Carbon view
+    api 'tk.zielony:carbon:0.16.0.1'
+
+    // SSP - SDP
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.13.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.1'
+
+    // Ted permission
+    implementation 'io.github.ParkSangGwon:tedpermission-normal:3.3.0'
+
+    // Coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
+
+    //okkhttp
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    // lottie
+    implementation 'com.airbnb.android:lottie:4.2.2'
+
+    // Room database
+    def room_version = "2.4.2"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // Dot indicator
+    implementation("com.tbuonomo:dotsindicator:4.3")
+
+    // Timber
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
+    implementation "com.squareup.okhttp3:okhttp:4.7.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.7.2"
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.2'
+
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+
+    // AppLovin SDK and addition network integrate
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.1.0'
+    implementation 'com.applovin:applovin-sdk:+'
+    implementation 'com.applovin.mediation:ironsource-adapter:+'        // IronSource
+    implementation 'com.applovin.mediation:bytedance-adapter:+'         // Pangle
+    implementation 'com.applovin.mediation:facebook-adapter:+'          // Meta
+    implementation 'com.applovin.mediation:google-adapter:+'            // Google AdMob
+
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+
+    // Firebase crash
+    implementation 'com.google.firebase:firebase-crashlytics-ktx:18.2.11'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    // In-App Purchase Library
+    def billing_version = "4.0.0"
+    implementation "com.android.billingclient:billing-ktx:$billing_version"
+}

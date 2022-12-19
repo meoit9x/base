@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_partOfSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noun"
+        android:textColor="@color/color_1F89C9"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="Definition:"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_definition_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:text="The round fruit of a tree of the rose family, which typically has thin red or green skin and crisp flesh."
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_12sdp" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_synonyms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="Synonyms:"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_synonyms_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:text="favorite, preference"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_12sdp" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_antonyms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="Antonyms:"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_antonyms_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:text="The round fruit of a tree of the rose"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_12sdp" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="Example:"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+    <com.example.base.customView.ExtTextView
+        android:id="@+id/ext_example_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:text="The round fruit of a tree of the rose"
+        android:textColor="@color/color_212121"
+        android:textSize="@dimen/_12sdp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_skip_button">건너뛰다</string>
+    <string name="onboard_next_button">다음</string>
+    <string name="onboard_back_button">뒤</string>
+    <string name="onboard_done_button">완료</string>
+    <string name="loading_ads_text">광고 로드 중...</string>
+
+</resources>

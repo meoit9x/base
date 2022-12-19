@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="agree_dialog">Agree</string>
+    <string name="add_record">Add Record</string>
+    <string name="select_language">Select language</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">Indonesian</string>
+    <string name="txt_language_thai" translatable="false">Thai</string>
+    <string name="txt_language_malay" translatable="false">Malaysian</string>
+    <string name="txt_language_en">English</string>
+    <string name="txt_language_vi">Vietnamese</string>
+    <string name="txt_language_spanish">Spanish</string>
+    <string name="txt_language_portuguese">Portuguese</string>
+    <string name="txt_language_russiane">Russian</string>
+    <string name="txt_language_ja">Japanese</string>
+    <string name="txt_language_korean">Korean</string>
+    <string name="txt_language_french">French</string>
+    <string name="txt_language_german">German</string>
+    <string name="txt_language_arabic" translatable="false">Arabic</string>
+    <string name="txt_language_chi">Chinese</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">Chinese (Simplified )</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">Chinese (Traditional)</string>
+
+    <string name="onboard_title_1">"350,000+ definitions from the most trusted sources"</string>
+    <string name="onboard_content_1">"Over 350,000 words of definitions from top dictionaries, even offline!"</string>
+
+    <string name="onboard_title_2">Check your level</string>
+    <string name="onboard_content_2">The application classifies the level (easy, medium, difficult) of the vocabulary you use in the text.</string>
+
+    <string name="onboard_title_3">"Favorite words and search history"</string>
+    <string name="onboard_content_3">Customize your recently searched word list, and never forget the newest words you’ve learned</string>
+    <string name="skip">Skip</string>
+    <string name="lever">Level</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="open">Open</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="search_here">Search here</string>
+    <string name="_new">New</string>
+    <string name="_history">History</string>
+    <string name="_favorite">Favorite</string>
+
+
+    <string name="language_level">Language Level</string>
+    <string name="tab_image">Image</string>
+    <string name="tab_text">Text</string>
+    <string name="drag_and_drop_files_to_upload">Drag and drop files to \n upload</string>
+    <string name="or">OR</string>
+    <string name="browse">Browse</string>
+    <string name="copy">Copy</string>
+    <string name="check">Check</string>
+    <string name="copy_to_clib_board">Save to clip board</string>
+    <string name="basic_word">Basic word</string>
+    <string name="view">view</string>
+    <string name="advance">Advance</string>
+    <string name="normal">Normal</string>
+    <string name="fragment_level_description">The higher the number, the higher your level</string>
+    <string name="format_total_text" translatable="false">(%s)</string>
+    <string name="detail">Detail</string>
+    <string name="etymology" translatable="false">Etymology</string>
+    <string name="s_phonetic" translatable="false">[%s]</string>
+    <string name="partOfSpeech" translatable="false">(%s)</string>
+    <string name="hint_text_content">"You don't have any text yet"</string>
+    <string name="_d" translatable="false">(%d)</string>
+    <string name="language">Language</string>
+    <string name="privacy">Privacy</string>
+    <string name="about_app">About App</string>
+
+    <string name="title_privacy">MERRYBLUE built E-Dict: Word Level Checker app as a Free app.</string>
+    <string name="content_privacy">"This SERVICE is provided by MERRYBLUE at no cost and is intended for use as is.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.
+The Personal Information that I collect is used for providing and improving the Service.I will not use or share your information with anyone except as described in this Privacy Policy.
+- Images: We are not responsible for the image content created by users or searched on the internet.
+- Stories: User-generated stories in the app for political, offensive, or deceptive purposes.
+- We are not responsible when users of the application for malicious purposes, political purposes, vote, and violate applicable national laws.
+1. Information Collection and Use
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information.The information that I request will be retained on your device and is not collected by me in any way.
+The app does use third party services that may collect information used to identify you.
+Links to the privacy policies of third party service providers can be used in the app
+AdMob (dán link https://support.google.com/admob/answer/6128543?hl=en)
+
+2. Log Data
+I want to inform you that whenever you use my Service, in case of an error in the app I collect data and information (through third party products) on your phone called Log Data.
+This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+
+3. Cookies
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
+These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services.
+You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+
+4. Service Providers
+The permissions we use in the application:
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.INTERNET
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+NOTE:
+- We are committed to using the above rights only for the purpose of serving the function of the application and fully comply with the policies of google play and not for any other purpose.
+
+- All information provided by users will only be stored on their device and we do not collect and store it in any form (including on servers or on cloud services...).
+
+- We do not disclose, store or share any sensitive information of users (email, bank account...).
+
+- Any questions or complaints please contact us via email: admin@merryblue.llc
+
+5. Service Providers
+I may employ third-party companies and individuals due to the following reasons:
+To facilitate our Service;
+
+To provide the Service on our behalf;
+
+To perform Service-related services;
+To assist us in analyzing how our Service is used.
+I want to inform users of this Service that these third parties have access to your Personal Information.
+The reason is to perform the tasks assigned to them on our behalf.However, they are obligated not to disclose or use the information for any other purpose.
+
+6. Security
+I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+
+7. Links to Other Sites
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site.
+Note that these external sites are not operated by me.Therefore, I strongly advise you to review the Privacy Policy of these websites.
+
+I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+8. Children’s Privacy
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13.
+In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers.
+If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to take necessary actions.
+
+9. Changes to This Privacy Policy
+I may update our Privacy Policy from time to time.Thus, you are advised to review this page periodically for any changes.
+I will notify you of any changes by posting the new Privacy Policy on this page.These changes are effective immediately after they are posted on this page.
+
+10. Contact Us
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at admin@merryblue.llc
+"</string>
+    <string name="content_about_app">"How can motivational quotes help you learn English faster and better? You may ask. Learning a language surely takes time.
+E-Dict: Word Level Checker will be the best companion to support you 24/7 in your English practice.
+If you want to expand your English vocabulary, this app is a must-have. E-Dict is the English dictionary that simple to use and so effective that you won't need any other word finder or lexicon.
+
+⭐ Rich Content
+•The very latest 2022 word database from Оxford Languages (part of Oxford University Press) with over 350,000 words, phrases and meanings
+• More than 75,000 audio pronunciations of both common and rare words, including those with varying pronunciations
+• Phrases – understand how a word is used in expressions by native speakers
+• Special topics reference content – easily look up topic-specific content
+• Word-of-the-day – expand your vocabulary by learning a new word, every day
+
+⭐ Outstanding numbers
+• 285,000 words, phrases and derived forms
+• 225,000 word sense definitions
+• 70,000 usage examples
+• 85,000 text pronunciations
+• Synonyms, similar and related words
+
+⭐ Word Level Checker
+• Check and classify words used in text with the click of a button
+• Analyze the ease and difficulty of the text with the highest accuracy
+• Vast vocabulary: over 3000 words of all levels (Basic, Intermediate and Advanced)
+
+E-Dict: Word Level Checker will improve your knowledge and get ready for any exam that has an English section. Become more eloquent in English. All the words are extracted from top and trusted sources like Oxford English Dictionary, Longman, WordBook, Learners Dictionary, DictionaryCom and more.
+This is the best Android app for English language reference, education, and vocabulary building. With more than 2 million trusted definitions and synonyms, the E-Dict: Word Level Checker for Android is optimized with your mobile device in mind to help you learn English or improve your English vocabulary. It even works offline!
+
+No Internet connection is required to use E-Dict: Word Level Checker, and it's free. Just give it a try and see for yourself!
+
+CONTACT
+Questions or feedback? We read every single email
+Have suggestions? Please, feel free to reach us at admin@merryblue.llc
+"</string>
+
+    <string name="empty_view_favorite">You don\'t have a favorite word yet</string>
+    <string name="empty_view_history">You don\'t have a history word yet</string>
+    <string name="save">Save</string>
+    <string name="there_was_an_error">There was an error in the process of getting information</string>
+    <string name="the_word_you_searched">The word you searched for is not in our system</string>
+    <string name="err_detail_text">Look like you’re offline, connect to the internet to continue</string>
+    <string name="loading_ads_text">Loading ads...</string>
+    <string name="facebook_app_id" translatable="false">1105959933462571</string>
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-9667401700436240~5223148075</string>
+</resources>

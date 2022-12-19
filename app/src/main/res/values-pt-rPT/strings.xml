@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dicionário</string>
+    <string name="confirm">Confirme</string>
+    <string name="cancel_dialog">Cancelar</string>
+    <string name="agree_dialog">Aceitar</string>
+    <string name="add_record">Adicionar registro</string>
+    <string name="select_language">Selecione o idioma</string>
+    <string name="next">próximo</string>
+    <string name="ok">Ok</string>
+    <string name="txt_language_en">Inglês</string>
+    <string name="txt_language_vi">Vietnamita</string>
+    <string name="txt_language_spanish">Espanhol</string>
+    <string name="txt_language_portuguese">Português</string>
+    <string name="txt_language_russiane">Russo</string>
+    <string name="txt_language_ja">Japonês</string>
+    <string name="txt_language_korean">Coreano</string>
+    <string name="txt_language_french">Francês</string>
+    <string name="txt_language_german">Alemão</string>
+    <string name="txt_language_chi">Chinês</string>
+    <string name="onboard_title_1">Mais de 350.000 definições das fontes mais confiáveis</string>
+    <string name="onboard_content_1">Mais de 350.000 palavras de definições dos melhores dicionários, mesmo offline!</string>
+    <string name="onboard_title_2">Verifique seu nível</string>
+    <string name="onboard_content_2">O aplicativo classifica o nível (fácil, médio, difícil) do vocabulário que você usa no texto.</string>
+    <string name="onboard_title_3">Palavras favoritas e histórico de pesquisa</string>
+    <string name="onboard_content_3">Personalize sua lista de palavras pesquisadas recentemente e nunca esqueça as palavras mais recentes que você aprendeu.</string>
+    <string name="skip">Pular</string>
+    <string name="lever">Nível</string>
+    <string name="home">Começar</string>
+    <string name="setting">Ajustamento</string>
+    <string name="open">Abrir</string>
+    <string name="dictionary">Dicionário</string>
+    <string name="search_here">procure aqui</string>
+    <string name="_new">Novo</string>
+    <string name="_history">História</string>
+    <string name="_favorite">Favorito</string>
+    <string name="language_level">nível de idioma</string>
+    <string name="tab_image">Imagem</string>
+    <string name="tab_text">Texto</string>
+    <string name="drag_and_drop_files_to_upload">Arraste e solte arquivos para \\n fazer upload</string>
+    <string name="or">QUALQUER</string>
+    <string name="browse">Navegar</string>
+    <string name="copy">cópia de</string>
+    <string name="check">Verificar</string>
+    <string name="copy_to_clib_board">salvar na área de transferência</string>
+    <string name="basic_word">palavra básica</string>
+    <string name="view">Visão</string>
+    <string name="advance">Vantagem</string>
+    <string name="normal">Normal</string>
+    <string name="fragment_level_description">Quanto maior o número, maior o seu nível</string>
+    <string name="detail">Detalhe</string>
+    <string name="hint_text_content">Você ainda não tem nenhum texto</string>
+    <string name="language">Idioma</string>
+    <string name="privacy">Privacidade</string>
+    <string name="about_app">Sobre o aplicativo</string>
+    <string name="title_privacy">MERRYBLUE criou o aplicativo E-Dict: Word Level Checker como um aplicativo gratuito.</string>
+    <string name="content_privacy">\"A MERRYBLUE fornece este SERVIÇO gratuitamente e foi projetado para ser usado como está. Esta página é usada para informar os visitantes sobre minhas políticas em relação à coleta, uso e divulgação de Informações Pessoais se alguém decidir usar meu Serviço. Se você optar por usar meu Serviço, concorda com a coleta e uso de informações em relação a esta política. As Informações Pessoais que coleto são usadas para fornecer e melhorar o Serviço. Não usarei ou compartilharei suas informações com ninguém, exceto conforme descrito nesta Política de Privacidade. - Imagens: Não nos responsabilizamos pelo conteúdo das imagens criadas pelos usuários ou pesquisadas na Internet. - Histórias: histórias geradas pelos usuários no aplicativo para fins políticos, ofensivos ou enganosos. - Não nos responsabilizamos quando os usuários do aplicativo para fins maliciosos, políticos, votam e violam as leis nacionais aplicáveis. 1. Coleta e uso de informações Para uma melhor experiência, ao usar nosso Serviço, podemos solicitar que você nos forneça determinadas informações de identificação pessoal. As informações que eu solicitar serão mantidas em seu dispositivo e não serão coletadas por mim de forma alguma. O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo. Links para as políticas de privacidade de provedores de serviços terceirizados podem ser usados ​​no aplicativo AdMob (link https://support.google.com/admob/answer/6128543?hl=es)  2. Dados cadastrais Quero informar que sempre que você usar meu Serviço, em caso de erro no aplicativo, coleto dados e informações (através de produtos de terceiros) em seu telefone chamado Log Data. Esses Dados de Registro podem incluir informações como o endereço do Protocolo de Internet (\"\"IP\"\") do seu dispositivo, nome do dispositivo, versão do sistema operacional, configurações do aplicativo quando você usa meu Serviço, hora e data de seu uso do Serviço e outras estatísticas. .  3. Biscoitos Cookies são arquivos com uma pequena quantidade de dados que são comumente usados ​​como identificadores exclusivos anônimos. Eles são enviados para o seu navegador a partir dos sites que você visita e são armazenados na memória interna do seu dispositivo. Este Serviço não usa esses \"\"\"\"cookies\"\"\"\" explicitamente. No entanto, o aplicativo pode usar código de terceiros e bibliotecas que usam \"\"\"\"cookies\"\"\"\" para coletar informações e melhorar seus serviços. Você tem a opção de aceitar ou rejeitar esses cookies e saber quando um cookie é enviado ao seu dispositivo. Se você optar por rejeitar nossos cookies, talvez não consiga usar algumas partes deste Serviço.  4. Prestadores de serviços As permissões que usamos no aplicativo: android.permission.WRITE_EXTERNAL_STORAGE  android.permission.READ_EXTERNAL_STORAGE  android.permission.WAKE_LOCK  android.permission.VIBRATE  android.permission.INTERNET  android.permission.ACCESS_NETWORK_STATE  android.permission.RECEIVE_BOOT_COMPLETED  NOTA: - Prometemos usar os direitos acima apenas com a finalidade de cumprir a função do aplicativo e cumprir integralmente as políticas do Google Play e não para qualquer outra finalidade.  - Todas as informações fornecidas pelos usuários serão armazenadas apenas em seu dispositivo e não serão coletadas ou armazenadas por nós de forma alguma (inclusive em servidores ou serviços em nuvem...).  - Não divulgamos, armazenamos ou compartilhamos qualquer informação sensível dos usuários (e-mail, conta bancária...).  - Qualquer dúvida ou reclamação, entre em contato conosco pelo e-mail: admin@merryblue.llc  5. Prestadores de serviços Posso empregar empresas e indivíduos terceirizados pelos seguintes motivos: Para facilitar nosso Serviço;  Para fornecer o Serviço em nosso nome;  Para executar serviços relacionados ao Serviço; Para nos ajudar a analisar como nosso Serviço é usado. Quero informar aos usuários deste Serviço que esses terceiros têm acesso às suas Informações Pessoais. O motivo é realizar as tarefas atribuídas a eles em nosso nome. No entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra finalidade.  6. Segurança Eu valorizo ​​sua confiança em nos fornecer suas informações pessoais, por isso nos esforçamos para usar meios comercialmente aceitáveis ​​para protegê-las. Mas lembre-se que nenhum método de transmissão pela Internet, ou método de armazenamento eletrônico, é 100% seguro e confiável, e não posso garantir sua segurança absoluta.  7. Links para outros sites Este Serviço pode conter links para outros sites. Se você clicar em um link de terceiros, você será direcionado para esse site. Observe que esses sites externos não são operados por mim. Portanto, recomendo que você revise a Política de Privacidade desses sites.  Não tenho controle e não assumo responsabilidade pelo conteúdo, políticas de privacidade ou práticas desites ou serviços de terceiros.  8. Privacidade das crianças Esses Serviços não são direcionados a menores de 13 anos. Não coleto intencionalmente informações de identificação pessoal de crianças menores de 13 anos. Caso eu descubra que uma criança menor de 13 anos me forneceu informações pessoais, eu as excluo imediatamente de nossos servidores. Se você é pai ou responsável e sabe que seu filho nos forneceu informações pessoais, entre em contato comigo para que eu possa tomar as medidas necessárias.  9. Alterações a esta Política de Privacidade Posso atualizar nossa Política de Privacidade de tempos em tempos. Portanto, você é encorajado a verificar esta página periodicamente para alterações. Vou notificá-lo sobre quaisquer alterações publicando a nova Política de Privacidade nesta página. Essas alterações entram em vigor imediatamente após serem publicadas nesta página.  10. Entre em contato conosco Se você tiver alguma dúvida ou sugestão sobre minha Política de Privacidade, sinta-se à vontade para entrar em contato comigo em admin@merryblue.llc\"</string>
+<!--    <string name="app_label_name" translatable="false">- Não nos responsabilizamos quando os usuários do aplicativo para fins maliciosos, políticos, votam e violam as leis nacionais aplicáveis.</string>-->
+    <string name="empty_view_history">Você ainda não tem uma palavra de história</string>
+    <string name="save">Economizar</string>
+    <string name="empty_view_favorite">Você ainda não tem uma palavra favorita</string>
+    <string name="content_about_app">\"Como as citações motivacionais podem ajudá-lo a aprender inglês mais rápido e melhor? Você pode perguntar. Aprender um idioma com certeza leva tempo. E-Dict: Word Level Checker será o melhor companheiro para apoiá-lo 24 horas por dia, 7 dias por semana em sua prática de inglês. Se você deseja expandir seu vocabulário em inglês, este aplicativo é obrigatório. E-Dict é o dicionário de inglês tão simples de usar e tão eficaz que você não precisará de nenhuma outra busca de palavras ou léxico.  ⭐ Conteúdo rico • Banco de dados de palavras mais recente de 2022 da Оxford Languages ​​​​​​(parte da Oxford University Press) com mais de 350.000 palavras, frases e significados • Mais de 75.000 pronúncias em áudio de palavras comuns e raras, incluindo aquelas com pronúncias diferentes • Frases: entenda como falantes nativos usam uma palavra em expressões • Conteúdo de referência de tópicos especiais: encontre facilmente conteúdo específico para um tópico • Palavra do dia: expanda seu vocabulário aprendendo uma nova palavra todos os dias  ⭐ Números em destaque • 285.000 palavras, frases e formas derivadas • 225.000 definições de significado de palavras • 70.000 exemplos de uso • 85.000 pronúncias de texto • Sinônimos, palavras semelhantes e relacionadas  ⭐ Verificador de nível de palavras • Verifique e classifique as palavras usadas no texto com o clique de um botão • Analise a facilidade e a dificuldade do texto com a maior precisão. • Amplo vocabulário: mais de 3000 palavras de todos os níveis (Básico, Intermediário e Avançado)  E-Dict: Word Level Checker irá melhorar seu conhecimento e prepará-lo para qualquer exame que tenha uma seção de inglês. Seja mais eloquente em inglês. Todas as palavras são extraídas de fontes líderes e confiáveis, como Oxford English Dictionary, Longman, WordBook, Learners Dictionary, DictionaryCom e muito mais. Este é o melhor aplicativo Android para referência, educação e desenvolvimento de vocabulário em inglês. Com mais de 2 milhões de definições e sinônimos confiáveis, E-Dict: Word Level Checker para Android é otimizado com seu dispositivo móvel em mente para ajudá-lo a aprender inglês ou melhorar seu vocabulário de inglês. Funciona até offline!  Nenhuma conexão com a Internet é necessária para usar o E-Dict: Word Level Checker, e é gratuito. Basta experimentá-lo e ver por si mesmo!  CONTATO Questões ou Comentários? Lemos todos os e-mails Você tem sugestões? Por favor, não hesite em contactar-nos em admin@merryblue.llc\"</string>
+    <string name="there_was_an_error">Ocorreu um erro no processo de obtenção de informações</string>
+    <string name="the_word_you_searched">A palavra que você pesquisou não está em nosso sistema</string>
+    <string name="err_detail_text">Parece que você está off-line, conecte-se à Internet para continuar</string>
+    <string name="loading_ads_text">Carregando anúncios...</string>
+</resources>

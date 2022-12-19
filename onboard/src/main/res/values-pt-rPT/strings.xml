@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_skip_button">Pular</string>
+    <string name="onboard_next_button">próximo</string>
+    <string name="onboard_back_button">RETORNA</string>
+    <string name="onboard_done_button">Feito</string>
+    <string name="loading_ads_text">Carregando anúncios...</string>
+</resources>
